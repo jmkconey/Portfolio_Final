@@ -1,10 +1,3 @@
-// Placeholder selectors
-%transition {
-  transition: all .25s;
-}
-
-/*=Typography=*/
-
 html {
   font-size: 16px;
 }
@@ -15,18 +8,13 @@ body {
 }
 
 .navbar a,
-.sec-about p {
+.about p {
   text-align: center;
 }
 
 .navbar a {
   font-size: 16px;
 }
-
-.navbar .fa-external-link {
-  font-size: 10px;
-}
-
 .main-heading {
   font-family: 'Federo', sans-serif;
   font-weight: 300;
@@ -72,11 +60,6 @@ ul {
   margin: 0;
   list-style-type: none;
 }
-
-a {
-  @extend %transition;
-}
-
 hr {
   margin-bottom: 3em;
   width: 7%;
@@ -105,7 +88,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+  background: url(http://cdn.paper4pc.com/images/dark-blue-texture-wallpaper-1.jpg) no-repeat center center;
   background-size: cover;
 
   &:after {
