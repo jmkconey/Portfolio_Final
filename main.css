@@ -170,7 +170,11 @@ header {
   font-family: 'Federo', sans-serif;
 }
 .footer{
-text-align: center; 
+text-align: center;
+    font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;  
+  font-family: 'Federo', sans-serif;
 }
 .social:hover {
      -webkit-transform: scale(1.1);
