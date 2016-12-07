@@ -159,9 +159,6 @@ hr {
 IMG.displayed{
   width:80px;
   height:80%;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto 
 }
 /*Footer*/
 .social:hover {
