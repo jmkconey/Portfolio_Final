@@ -56,7 +56,11 @@ ul.topnav li a.active {
   text-align: center;
   text-transform: uppercase;
 }
-
+/* Portfolio */
+.container{
+  margin:0 auto;
+  text-align:center;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
