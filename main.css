@@ -157,6 +157,10 @@ hr {
   }
 }
 /* Portfolio */
+.img{
+  width:50px;
+  height:50%;
+}
 /*Footer*/
 .social:hover {
      -webkit-transform: scale(1.1);
