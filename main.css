@@ -7,14 +7,43 @@ body {
   font-weight: 300;
 }
 
-.navbar a,
-.about p {
-  text-align: center;
+/* navbar */
+
+ul.topnav {
+  font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242B2F;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
-.navbar a {
-  font-size: 16px;
+ul.topnav li {
+  float: right;
 }
+
+ul.topnav li a {
+    display: block;
+    color: #7ca67a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #7ca67a;
+  color: #242B2F;
+}
+/* navbar ending */
 .main-heading {
   font-family: 'Federo', sans-serif;
   font-weight: 300;
