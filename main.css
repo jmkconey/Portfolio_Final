@@ -34,10 +34,13 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+ul.topnav li a:hover:not(.active) {
+  background-color: #E0EEEE;
+}
 
 ul.topnav li a.active {
   background-color: #0000ff;
-  color: #242B2F;
+  color: #E0EEEE;
 }
 /* navbar ending */
 .main-heading {
