@@ -166,7 +166,8 @@ header {
 .footer > h1 {
   font-weight: 300;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  font-family: 'Federo', sans-serif;
 }
 .footer{
 text-align: center; 
