@@ -155,30 +155,16 @@ hr {
 }
 
 /*Footer*/
-
-footer {
-  background: #000;
+.footer{
+  positioning: relative;
+  width: 100%;
+	height: 12em;
+	background: #242B2F;
 }
 
-.soc-media-ul {
-  display: flex;
-  justify-content: center;
-}
-
-.soc-media-ul li:not(:first-child) a {
-  margin-left: 1em;
-}
-
-.soc-media-ul a {
-  display: block;
-  padding: 0.5em .65rem;
-  font-size: 1rem;
-  color: #fff;
-  border-radius: 50%;
-  border: 2px solid;
-
-  &:hover,
-  &:focus {
-    color: blue;
-  }
+.aboutfooter{
+  positioning: relative;
+  width: 100%;
+  height: 19em;
+	background: #a04d53;
 }
