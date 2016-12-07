@@ -157,17 +157,6 @@ hr {
   }
 }
 /* Portfolio */
-.header { 
-  padding: .7vw;
-  font-size: 0;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: flex;
-}
 /*Footer*/
 .social:hover {
      -webkit-transform: scale(1.1);
