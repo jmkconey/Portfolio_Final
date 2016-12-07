@@ -157,14 +157,7 @@ hr {
   }
 }
 /* Portfolio */
-.sec-folio a {
-  color: #000;
-  &:hover,
-  &:focus {
-    color: #0000ff;
-  }
-}
-header { 
+.header { 
   padding: .7vw;
   font-size: 0;
   display: -ms-flexbox;
