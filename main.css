@@ -73,14 +73,6 @@ p {
 section {
   padding: 5em 0;
 }
-/*footer*/
-.footer{
-text-align: center;
-  font-family: 'Federo', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-}
 form {
   @media screen and (max-width: 768px) and (min-width: 485px) {
     max-width: 70%;
